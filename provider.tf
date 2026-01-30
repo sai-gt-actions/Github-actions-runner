@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "remote-state-sai18-dev"
-    key    = "github-runner"
+    key    = "github-actions-runner"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
